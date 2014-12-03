@@ -14,6 +14,10 @@
 		CB36D3751A2DB8FF002CE6E9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB36D3741A2DB8FF002CE6E9 /* Images.xcassets */; };
 		CB36D3781A2DB8FF002CE6E9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB36D3761A2DB8FF002CE6E9 /* LaunchScreen.xib */; };
 		CB36D3841A2DB900002CE6E9 /* TestScrollView____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB36D3831A2DB900002CE6E9 /* TestScrollView____Tests.m */; };
+		CB36D38F1A2DBAB6002CE6E9 /* XQLinkageView.m in Sources */ = {isa = PBXBuildFile; fileRef = CB36D38E1A2DBAB6002CE6E9 /* XQLinkageView.m */; };
+		CB36D3941A2DC270002CE6E9 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CB36D3911A2DC270002CE6E9 /* 1.jpg */; };
+		CB36D3951A2DC270002CE6E9 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CB36D3921A2DC270002CE6E9 /* 2.jpg */; };
+		CB36D3961A2DC270002CE6E9 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CB36D3931A2DC270002CE6E9 /* 3.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,11 @@
 		CB36D37D1A2DB8FF002CE6E9 /* TestScrollView联动效果Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TestScrollView联动效果Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB36D3821A2DB900002CE6E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CB36D3831A2DB900002CE6E9 /* TestScrollView____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "TestScrollView____Tests.m"; sourceTree = "<group>"; };
+		CB36D38D1A2DBAB6002CE6E9 /* XQLinkageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XQLinkageView.h; sourceTree = "<group>"; };
+		CB36D38E1A2DBAB6002CE6E9 /* XQLinkageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XQLinkageView.m; sourceTree = "<group>"; };
+		CB36D3911A2DC270002CE6E9 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		CB36D3921A2DC270002CE6E9 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		CB36D3931A2DC270002CE6E9 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +90,7 @@
 		CB36D3661A2DB8FF002CE6E9 /* TestScrollView联动效果 */ = {
 			isa = PBXGroup;
 			children = (
+				CB36D3901A2DC270002CE6E9 /* images */,
 				CB36D36B1A2DB8FF002CE6E9 /* AppDelegate.h */,
 				CB36D36C1A2DB8FF002CE6E9 /* AppDelegate.m */,
 				CB36D36E1A2DB8FF002CE6E9 /* ViewController.h */,
@@ -89,6 +99,8 @@
 				CB36D3741A2DB8FF002CE6E9 /* Images.xcassets */,
 				CB36D3761A2DB8FF002CE6E9 /* LaunchScreen.xib */,
 				CB36D3671A2DB8FF002CE6E9 /* Supporting Files */,
+				CB36D38D1A2DBAB6002CE6E9 /* XQLinkageView.h */,
+				CB36D38E1A2DBAB6002CE6E9 /* XQLinkageView.m */,
 			);
 			path = "TestScrollView联动效果";
 			sourceTree = "<group>";
@@ -117,6 +129,16 @@
 				CB36D3821A2DB900002CE6E9 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CB36D3901A2DC270002CE6E9 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				CB36D3911A2DC270002CE6E9 /* 1.jpg */,
+				CB36D3921A2DC270002CE6E9 /* 2.jpg */,
+				CB36D3931A2DC270002CE6E9 /* 3.jpg */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,6 +222,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB36D3731A2DB8FF002CE6E9 /* Main.storyboard in Resources */,
+				CB36D3941A2DC270002CE6E9 /* 1.jpg in Resources */,
+				CB36D3951A2DC270002CE6E9 /* 2.jpg in Resources */,
+				CB36D3961A2DC270002CE6E9 /* 3.jpg in Resources */,
 				CB36D3781A2DB8FF002CE6E9 /* LaunchScreen.xib in Resources */,
 				CB36D3751A2DB8FF002CE6E9 /* Images.xcassets in Resources */,
 			);
@@ -220,6 +245,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB36D3701A2DB8FF002CE6E9 /* ViewController.m in Sources */,
+				CB36D38F1A2DBAB6002CE6E9 /* XQLinkageView.m in Sources */,
 				CB36D36D1A2DB8FF002CE6E9 /* AppDelegate.m in Sources */,
 				CB36D36A1A2DB8FF002CE6E9 /* main.m in Sources */,
 			);
@@ -297,7 +323,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -332,7 +358,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
